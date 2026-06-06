@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-	const boldWords = document.querySelecterAll("strong");
+	const boldWords = document.querySelectorAll("strong");
 
 	boldWords.forEach(function(word){
 		word.style.color = "rgb(0, 128, 0)"; 
